@@ -13,7 +13,7 @@ function SuperLikeButton() {
     return e(
         'button',
         { onClick: () => {setCount(count + 1); console.log(count)}},
-        `Like${count}`
+         count == 0 ? 'Like' : `Like${count}`
         
       ); 
     
