@@ -5,16 +5,17 @@ const e = React.createElement;
 
 
 function SuperLikeButton() {
-    const [liked, setLiked] = React.useState(false)
-    console.log(liked);
-    if (liked == true) {
+    
+    const [count, setCount] = React.useState(0);
+    if (count == 10) {
         return e('span', null, 'You like this')
     }
     return e(
         'button',
-        { onClick: () => setLiked(true)},
-        'Like'
-      );
+        { onClick: () => {setCount(count + 1); console.log(count)}},
+        `Like${count}`
+        
+      ); 
     
 }
 
