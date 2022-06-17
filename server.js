@@ -10,12 +10,9 @@ const app = express();
 const port = 3100;
 
 
+app.use(express.static('./'));
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '/index.html'));
-})
-
-app.get('/test.js', (req, res) => {
-    res.sendFile(path.join(__dirname, '/test.js'));
 })
 
 
