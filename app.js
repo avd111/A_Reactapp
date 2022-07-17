@@ -42,7 +42,7 @@ function SuperLikeButton() {
 
 function RandomNamesButton(props) {
     const makeIndex = () => Math.floor(Math.random() * 3);
-    const names = ['Ranger', 'CT', 'Maza'];
+    // const names = ['Ranger', 'CT', 'Maza'];
     const [buttonName, setButtonName] = React.useState('Clickme');
     // const [, forceUpdate] = React.useState();
     
@@ -88,6 +88,6 @@ function RandomNamesButton(props) {
 const domContainer = document.querySelector('#root');
 
 const root = ReactDOM.createRoot(domContainer);
-root.render(React.createElement('div', {className: 'Ilya'}, [e(SuperLikeButton), e(RandomNamesButton), e(RandomNamesButton)]));
+root.render(React.createElement('div', {className: 'Ilya', }, [e(SuperLikeButton), e(RandomNamesButton), e(RandomNamesButton)]));
 
 
