@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 span {
     color: red;
 }
@@ -6,3 +7,56 @@ span {
     padding-left: 5px;
     padding-top: 5px;
 }
+=======
+.span {
+    color: rgb(37, 212, 136);
+    margin-bottom: 10px;
+    background-color: black;
+    border: 1px;
+}
+
+.Ilya{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: red;
+    width: 100px;
+    }
+
+.superLike{
+    color: blue
+}    
+
+.dima{
+    background-color: blue;
+}
+
+.button{
+    margin-bottom: 10px;
+}
+
+#root{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.final{
+    display: flex;
+}
+
+.double{
+    display: flex;
+    flex-direction: column;
+}
+
+.double2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.randomNamesButton{
+    margin-bottom: 10px;
+}
+>>>>>>> 1c5d5314bc37ff4d380c4bdbce354bb7d9c0a6bd
